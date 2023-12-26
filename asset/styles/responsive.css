@@ -7,8 +7,14 @@
         gap: 1rem;
     }
 
-    .skills-right ul li {
+    .experience-right ul li {
         font-size: 0.9rem;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .experience-grid {
+        gap: 1rem;
     }
 }
 
@@ -80,7 +86,8 @@
     }
 
     .hero-right img {
-        width: 70%;
+        width: 35%;
+        margin-bottom: 1rem;
     }
 
     .hero-left {
@@ -97,9 +104,24 @@
         margin-bottom: .5rem;
     }
 
-    /* Skills Section */
-    .skills-grid {
+    /* Experience Section */
+    .experience-grid {
         gap: 1rem;
+    }
+
+    .experience-right .education {
+        display: flex;
+        gap: 1rem;
+        text-align: left;
+        justify-content: flex-start;
+    }
+
+    .experience-right .education .line {
+        display: none;
+    }
+
+    .education .line-responsive {
+        display: block;
     }
 
     /* Footer Section */
@@ -107,6 +129,7 @@
         padding: 2rem 0;
     }
 }
+
 
 @media screen and (max-width: 640px) {
     /* Titles */

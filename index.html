@@ -7,6 +7,7 @@
     <title>Portfolio</title>
     <link rel="stylesheet" href="./asset/styles/style.css">
     <link rel="stylesheet" href="./asset/styles/responsive.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@glidejs/glide/dist/css/glide.core.min.css" />
 </head>
 <body>
     <!-- Header -->
@@ -20,7 +21,7 @@
                     <ul>
                         <li><a href="#services">Services</a></li>
                         <li><a href="#portfolio">Portfolio</a></li>
-                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#experience">experience</a></li>
                         <li><a href="#contact">Contact</a></li>
                         <li>
                             <a href="/resume.pdf" target="_blank">
@@ -42,7 +43,7 @@
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis neque nulla cumque quas fugit, ea ipsum dolor quasi nostrum quisquam voluptas iste! Natus exercitationem hic quidem accusamus reprehenderit eum quasi?</p>
                 </div>
                 <div class="hero-right">
-                    <img src="./asset/image/sapiens.png" alt="person-standing">
+                    <img src="./asset/image/profile.png" alt="person-standing">
                 </div>
             </section>
         </div>
@@ -95,80 +96,124 @@
     <section id="portfolios">
         <div class="portfolios main-container">
             <h3 class="pre-title">My Projects</h3>
-            <h1 class="section-title">Featured Portfolios</h1>
-
-            <div class="grid-3">
-                <!-- Portfolio 1 -->
-                <div class="portfolio">
-                    <div class="portfolio-cover">
-                        <img src="./asset/image/portfolio/advertising-1.jpg" alt="1" srcset="">
-                    </div>
-                    <div class="portfolio-info">
-                        <div class="portfolio-title">
-                            <h4>Web NovI</h4>
-                            <a href="/" class="portfolio-link">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M6 17c2.269-9.881 11-11.667 11-11.667v-3.333l7 6.637-7 6.696v-3.333s-6.17-.171-11 5zm12 .145v2.855h-16v-12h6.598c.768-.787 1.561-1.449 2.339-2h-10.937v16h20v-6.769l-2 1.914z"/></svg>
-                            </a>
-                        </div>
-                        <div class="portfolio-tags">
-                            <div>PHP</div>
-                            <div>Laravel</div>
-                        </div>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, magni nam assumenda molestiae necessitatibus recusandae quo cupiditate excepturi odit rem provident maxime voluptas quam quidem sapiente, minus culpa laudantium. Dolorem.</p>
-                    </div>
+            <h1 class="section-title">Projects Portfolio</h1>
+            
+            <!-- Slider -->
+            <div class="glide">
+                <div class="glide__track" data-glide-el="track">
+                    <ul class="glide__slides">
+                        <!-- <div class="grid-3">
+                        </div> -->
+                        <!-- Portfolio 1 -->
+                        <li class="glide__slide">
+                            <div class="portfolio">
+                                <div class="portfolio-cover">
+                                    <img src="./asset/image/portfolio/advertising-1.jpg" alt="1" srcset="">
+                                </div>
+                                <div class="portfolio-info">
+                                    <div class="portfolio-title">
+                                        <h4>Web NovI</h4>
+                                        <a href="/" class="portfolio-link">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M6 17c2.269-9.881 11-11.667 11-11.667v-3.333l7 6.637-7 6.696v-3.333s-6.17-.171-11 5zm12 .145v2.855h-16v-12h6.598c.768-.787 1.561-1.449 2.339-2h-10.937v16h20v-6.769l-2 1.914z"/></svg>
+                                        </a>
+                                    </div>
+                                    <div class="portfolio-tags">
+                                        <div>PHP</div>
+                                        <div>Laravel</div>
+                                    </div>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, magni nam assumenda molestiae necessitatibus recusandae quo cupiditate excepturi odit rem provident maxime voluptas quam quidem sapiente, minus culpa laudantium. Dolorem.</p>
+                                </div>
+                            </div>
+                        </li>
+        
+                        <!-- Portfolio 2 -->
+                        <li class="glide__slide">
+                            <div class="portfolio">
+                                <div class="portfolio-cover">
+                                    <img src="./asset/image/portfolio/advertising-2.jpg" alt="1" srcset="">
+                                </div>
+                                <div class="portfolio-info">
+                                    <div class="portfolio-title">
+                                        <h4>Web NovI</h4>
+                                        <a href="/" class="portfolio-link">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M6 17c2.269-9.881 11-11.667 11-11.667v-3.333l7 6.637-7 6.696v-3.333s-6.17-.171-11 5zm12 .145v2.855h-16v-12h6.598c.768-.787 1.561-1.449 2.339-2h-10.937v16h20v-6.769l-2 1.914z"/></svg>
+                                        </a>
+                                    </div>
+                                    <div class="portfolio-tags">
+                                        <div>PHP</div>
+                                        <div>Laravel</div>
+                                    </div>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, magni nam assumenda molestiae necessitatibus recusandae quo cupiditate excepturi odit rem provident maxime voluptas quam quidem sapiente, minus culpa laudantium. Dolorem.</p>
+                                </div>
+                            </div>
+                        </li>
+        
+                        <!-- Portfolio 3 -->
+                        <li class="glide__slide">
+                            <div class="portfolio">
+                                <div class="portfolio-cover">
+                                    <img src="./asset/image/portfolio/advertising-3.jpg" alt="1" srcset="">
+                                </div>
+                                <div class="portfolio-info">
+                                    <div class="portfolio-title">
+                                        <h4>Web NovI</h4>
+                                        <a href="/" class="portfolio-link">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M6 17c2.269-9.881 11-11.667 11-11.667v-3.333l7 6.637-7 6.696v-3.333s-6.17-.171-11 5zm12 .145v2.855h-16v-12h6.598c.768-.787 1.561-1.449 2.339-2h-10.937v16h20v-6.769l-2 1.914z"/></svg>
+                                        </a>
+                                    </div>
+                                    <div class="portfolio-tags">
+                                        <div>PHP</div>
+                                        <div>Laravel</div>
+                                    </div>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, magni nam assumenda molestiae necessitatibus recusandae quo cupiditate excepturi odit rem provident maxime voluptas quam quidem sapiente, minus culpa laudantium. Dolorem.</p>
+                                </div>
+                            </div>
+                        </li>
+        
+                        <!-- Portfolio 4 -->
+                        <li class="glide__slide">
+                            <div class="portfolio">
+                                <div class="portfolio-cover">
+                                    <img src="./asset/image/portfolio/advertising-4.jpg" alt="1" srcset="">
+                                </div>
+                                <div class="portfolio-info">
+                                    <div class="portfolio-title">
+                                        <h4>Web NovI</h4>
+                                        <a href="/" class="portfolio-link">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M6 17c2.269-9.881 11-11.667 11-11.667v-3.333l7 6.637-7 6.696v-3.333s-6.17-.171-11 5zm12 .145v2.855h-16v-12h6.598c.768-.787 1.561-1.449 2.339-2h-10.937v16h20v-6.769l-2 1.914z"/></svg>
+                                        </a>
+                                    </div>
+                                    <div class="portfolio-tags">
+                                        <div>PHP</div>
+                                        <div>Laravel</div>
+                                    </div>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, magni nam assumenda molestiae necessitatibus recusandae quo cupiditate excepturi odit rem provident maxime voluptas quam quidem sapiente, minus culpa laudantium. Dolorem.</p>
+                                </div>
+                            </div>
+                        </li>
+                        
+                    </ul>
                 </div>
-
-                <!-- Portfolio 2 -->
-                <div class="portfolio">
-                    <div class="portfolio-cover">
-                        <img src="./asset/image/portfolio/advertising-1.jpg" alt="1" srcset="">
-                    </div>
-                    <div class="portfolio-info">
-                        <div class="portfolio-title">
-                            <h4>Web NovI</h4>
-                            <a href="/" class="portfolio-link">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M6 17c2.269-9.881 11-11.667 11-11.667v-3.333l7 6.637-7 6.696v-3.333s-6.17-.171-11 5zm12 .145v2.855h-16v-12h6.598c.768-.787 1.561-1.449 2.339-2h-10.937v16h20v-6.769l-2 1.914z"/></svg>
-                            </a>
-                        </div>
-                        <div class="portfolio-tags">
-                            <div>PHP</div>
-                            <div>Laravel</div>
-                        </div>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, magni nam assumenda molestiae necessitatibus recusandae quo cupiditate excepturi odit rem provident maxime voluptas quam quidem sapiente, minus culpa laudantium. Dolorem.</p>
-                    </div>
-                </div>
-                
-                <!-- Portfolio 3 -->
-                <div class="portfolio">
-                    <div class="portfolio-cover">
-                        <img src="./asset/image/portfolio/advertising-1.jpg" alt="1" srcset="">
-                    </div>
-                    <div class="portfolio-info">
-                        <div class="portfolio-title">
-                            <h4>Web NovI</h4>
-                            <a href="/" class="portfolio-link">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M6 17c2.269-9.881 11-11.667 11-11.667v-3.333l7 6.637-7 6.696v-3.333s-6.17-.171-11 5zm12 .145v2.855h-16v-12h6.598c.768-.787 1.561-1.449 2.339-2h-10.937v16h20v-6.769l-2 1.914z"/></svg>
-                            </a>
-                        </div>
-                        <div class="portfolio-tags">
-                            <div>PHP</div>
-                            <div>Laravel</div>
-                        </div>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, magni nam assumenda molestiae necessitatibus recusandae quo cupiditate excepturi odit rem provident maxime voluptas quam quidem sapiente, minus culpa laudantium. Dolorem.</p>
-                    </div>
+                <div class="glide__controls" data-glide-el="controls">
+                    <button class="glide__arrow glide__arrow--left" data-glide-dir="<">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M16.67 0l2.83 2.829-9.339 9.175 9.339 9.167-2.83 2.829-12.17-11.996z"/></svg>
+                    </button>
+                    <button class="glide__arrow glide__arrow--right" data-glide-dir=">">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M7.33 24l-2.83-2.829 9.339-9.175-9.339-9.167 2.83-2.829 12.17 11.996z"/></svg>
+                    </button>
                 </div>
             </div>
         </div>
     </section>
     <!-- End of Portfolio -->
 
-    <!-- Skills & Education -->
-    <section id="skills">
-        <div class="skills main-container">
-            <h3 class="pre-title">Learning Path</h3>
-            <h1 class="section-title">Skills & Education</h1>
-            <div class="skills-grid">
-                <div class="skills-left">
+    <!-- Experience & Education -->
+    <section id="experience">
+        <div class="experience main-container">
+            <h3 class="pre-title">Education & Experience</h3>
+            <div class="experience-grid">
+                <div class="experience-left">
+                    <h1 class="section-title">Education</h1>
                     <!-- Education 1 -->
                     <div class="education">
                         <div class="line">
@@ -205,8 +250,54 @@
                         </div>
                     </div>
                 </div>
-                <div class="skills-right">
-                    <p>
+                <div class="experience-right">
+                    <h1 class="section-title">Experience</h1>
+                    <!-- Education 1 -->
+                    <div class="education">
+                        <div class="line-responsive">
+                            <div></div>
+                        </div>
+                        <div class="education-info">
+                            <h4 class="education-title">Polije</h4>
+                            <p>Master Degree - Informatics Engineering</p>
+                        <h4 class="education-years">2019 - 2023</h4>
+                        </div>
+                        <div class="line">
+                            <div></div>
+                        </div>
+                    </div>
+
+                    <!-- Education 2 -->
+                    <div class="education">
+                        <div class="line-responsive">
+                            <div></div>
+                        </div>
+                        <div class="education-info">
+                            <h4 class="education-title">Polije</h4>
+                            <p>Master Degree - Informatics Engineering</p>
+                        <h4 class="education-years">2019 - 2023</h4>
+                        </div>
+                        <div class="line">
+                            <div></div>
+                        </div>
+                    </div>
+
+                    <!-- Education 3 -->
+                    <div class="education">
+                        <div class="line-responsive">
+                            <div></div>
+                        </div>
+                        <div class="education-info">
+                            <h4 class="education-title">Polije</h4>
+                            <p>Master Degree - Informatics Engineering</p>
+                        <h4 class="education-years">2019 - 2023</h4>
+                        </div>
+                        <div class="line">
+                            <div></div>
+                        </div>
+                    </div>
+
+                    <!-- <p>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, harum quasi aspernatur, dolorum distinctio minus quis laborum inventore molestias corporis laboriosam tempore ipsa recusandae! Harum provident voluptate laborum magnam voluptatem!
                     </p>
                     <div class="skills-list">
@@ -224,12 +315,42 @@
                             <li>CSS</li>
                             <li>Javascript</li>
                         </ul>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </div>
     </section>
-    <!-- End of Skills & Education -->
+    <!-- End of experience & Education -->
+
+    <!-- Skills -->
+    <section id="skills">
+        <div class="skills main-container">
+            <h3 class="pre-title">Skills</h3>
+            <h1 class="section-title">List Skills</h1>
+            <div class="skills-list">
+                <p>HTML</p>
+                <div class="container">
+                  <div class="skill html">90%</div>
+                </div>
+                
+                <p>CSS</p>
+                <div class="container">
+                  <div class="skill css">80%</div>
+                </div>
+                
+                <p>JavaScript</p>
+                <div class="container">
+                  <div class="skill js">65%</div>
+                </div>
+                
+                <p>PHP</p>
+                <div class="container">
+                  <div class="skill php">60%</div>
+                </div>
+            </div>
+        </div>
+    </section>    
+    <!-- End of Skills -->
 
     <!-- Contact -->
     <section id="contact">
@@ -307,5 +428,23 @@
 </body>
 
 <script src="./asset/script/main.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@glidejs/glide/dist/glide.min.js"></script>
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        var glide = new Glide('.glide', {
+            type: 'carousel',
+            startAt: 0,
+            perView: 3, // Menentukan jumlah item yang terlihat pada satu waktu
+            focusAt: 'center', // Fokus pada item tengah
+            gap: 20, // Menentukan jarak antara item
+            breakpoints: {
+                800: {
+                    perView: 1, // Jika lebar layar di bawah 800px, hanya satu item yang terlihat
+                },
+            },
+        });
 
+        glide.mount(); // Pasang slider
+    });
+</script>
 </html>
