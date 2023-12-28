@@ -408,6 +408,12 @@ nav ul li a {
     margin-bottom: 2rem;
 }
 
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 3rem;
+}
+
 .container {
     width: 100%;
     background-color: #ddd;
@@ -423,23 +429,23 @@ nav ul li a {
 }
 
 .html {
-    width: 80%;
+    width: 90%;
     background-color: var(--primaryIconColor);
     border-radius: 8px 0 0 8px;
 }
 
 .css {
-    width: 70%;
+    width: 80%;
     background-color: var(--primaryIconColor);
 }
 
 .js {
-    width: 55%;
+    width: 65%;
     background-color: var(--primaryIconColor);
 }
 
 .php {
-    width: 50%;
+    width: 60%;
     background-color: var(--primaryIconColor);
     border-radius: 0 8px 8px 0;
 }
