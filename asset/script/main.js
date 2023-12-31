@@ -2,11 +2,14 @@
 const navSlide = () => {
     const burger = document.querySelector(".burger");
     const navLists = document.querySelector("nav");
+    const wave = document.querySelector(".wave");
 
     burger.addEventListener("click", () => {
-        navLists.classList.toggle("nav-active");
-        burger.classList.toggle("toggle-burger")
-    })
+        if (wave && !wave.classList.contains("nav-active")) {
+            navLists.classList.toggle("nav-active");
+            burger.classList.toggle("toggle-burger");
+        }
+    });
 }
 
 navSlide();

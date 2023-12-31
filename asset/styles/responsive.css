@@ -19,7 +19,7 @@
 
     .skills-grid {
         gap: 1rem;
-    }
+    } 
 }
 
 @media screen and (max-width: 825px) {
@@ -39,12 +39,13 @@
     
     .toggle-burger .line-3 {
         transform: rotate(45deg) translate(-5px, -7px);
-    }
+    }    
+
 
     /* Navigation */
     nav {
         position: fixed;
-        width: 50%;
+        width: 100%;
         right: 0;
         top: 0;
         height: 100vh;
@@ -137,6 +138,7 @@
     footer {
         padding: 2rem 0;
     }
+
 }
 
 
@@ -149,4 +151,5 @@
     .pre-title {
         font-size: 0.7rem;
     }
+
 }

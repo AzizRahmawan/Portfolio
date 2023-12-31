@@ -99,7 +99,7 @@ a {
 }
 
 .pre-title::before {
-    margin-right: 3px; /* Adjust this value to control the space between text and line */
+    margin-right: 3px; 
     left: 0;
 }
 
@@ -119,13 +119,25 @@ a {
 .nav {
     display: flex;
     justify-content: space-between;
-    padding: 2rem 0;
+    padding: 2rem;
+}
+
+.logo,
+nav {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.logo a:hover, nav a:hover{
+    color: var(--primaryIconColorHover);
 }
 
 .nav ul {
     list-style: none;
     display: flex;
     gap: 3rem;
+    font-weight: bold;
+    align-items: center;
 }
 
 .logo {
@@ -185,16 +197,18 @@ nav ul li a {
 }
 
 .hero-right img {
-    background: rgb(180, 180, 180);
+    background: rgb(250, 250, 250);
     border-radius: 50%;
     overflow: hidden;
     width: 75%;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
 }
 
 .hero-right {
     display: flex;
     justify-content: center;
 }
+
 
 /* Services Section */
 #services {

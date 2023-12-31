@@ -1,0 +1,40 @@
+/* Wave styling */
+.wave {
+  content: "";
+  height: 300px;
+  width: 100%;
+  background: url(https://raw.githack.com/SochavaAG/example-mycode/master/pens/animation-wave-shadow/images/wave.svg) repeat-x scroll 0 0;
+  background-color: #00a2ff;
+  -webkit-background-size: 1600px 300px;
+  -moz-background-size: 1600px 300px;
+  -o-background-size: 1600px 300px;
+   background-size: 1600px 300px;
+  position: absolute;
+  -webkit-animation: an-wave 20s linear infinite;
+  -moz-animation: an-wave 20s linear infinite;
+  -o-animation: an-wave 20s linear infinite;
+  animation: an-wave 20s linear infinite;
+  pointer-events: auto;
+  z-index: -1;
+}
+
+@-webkit-keyframes an-wave {
+  100% {
+    background-position-x: -1600px;
+  }
+}
+@-moz-keyframes an-wave {
+  100% {
+    background-position-x: -1600px;
+  }
+}
+@-o-keyframes an-wave {
+  100% {
+    background-position-x: -1600px;
+  }
+}
+@keyframes an-wave {
+  100% {
+    background-position-x: -1600px;
+  }
+}
