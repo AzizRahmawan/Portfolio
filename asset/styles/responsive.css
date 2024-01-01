@@ -48,7 +48,7 @@
         width: 100%;
         right: 0;
         top: 0;
-        height: 100vh;
+        height: 100%;
         flex-direction: column;
         background: var(--primaryBackgroundColor);
         border-left: 1px solid var(--borderColor);
@@ -68,9 +68,9 @@
         transform: translateX(0);
     }
 
-    :root {
+    /* :root {
         --sectionPadding: 4rem;
-    }
+    } */
     
     .section-title {
         font-size: 1.6rem;

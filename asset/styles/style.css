@@ -60,15 +60,22 @@ a {
 
 /* Buttons */
 .btn {
-    padding: 1rem 1.5rem;
-    background: white;
+    padding: 1rem 1rem;
+    background: var(--primaryIconColor);
     border: 1.5px solid var(--borderColor);
+    border-radius: 20px;
     cursor: pointer;
     transition: .2s ease-in-out;
+    text-transform: uppercase;
+    letter-spacing: .15rem;
+    color:  white;
+    font-weight: 400;
+    font-size: .8rem;
 }
 
-.btn :hover {
-    box-shadow: rgba(0, 0, 0, 0.04) 0px;
+.btn:hover {
+    background: var(--thirdBackgroundColor);
+    color: #000;
 }
 
 /* Titles */
@@ -474,6 +481,10 @@ nav ul li a {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
     gap: 3rem;
+}
+
+.contact .pre-title {
+    margin: 0;
 }
 
 .contact-form div {
