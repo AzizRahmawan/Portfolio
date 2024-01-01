@@ -153,3 +153,24 @@
     }
 
 }
+
+@media screen and (max-width: 370px) {
+    * {
+        box-sizing: border-box;
+    }
+    body, html {
+        margin: 0;
+        padding: 0;
+    }
+    body {
+        overflow-x: hidden;
+    }
+    
+    .container {
+        width: 90%;
+    }
+
+    .contact-form {
+        width: 90%;
+    }
+}
