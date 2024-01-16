@@ -2,8 +2,8 @@
 const navSlide = () => {
     const burger = document.querySelector(".burger");
     const navLists = document.querySelector("nav");
-    const wave = document.querySelector(".wave");
     const navLinks = document.querySelectorAll('nav a');
+    const wave = document.querySelector(".wave");
 
     burger.addEventListener("click", () => {
         if (wave && !wave.classList.contains("nav-active")) {
