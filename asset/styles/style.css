@@ -25,6 +25,9 @@
 
     --itemBorderradius: 0.7rem;
 }
+.icon-web {
+    border-radius: 50%;
+}
 
 body {
     font-family: "Roboto", sans-serif;
@@ -201,6 +204,9 @@ nav ul li a {
 
 .hero-name span {
     color: var(--primaryIconColor);
+}
+.hero-description {
+    text-align: justify;
 }
 
 .hero-right img {
