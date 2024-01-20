@@ -318,6 +318,10 @@ nav ul li a {
     padding: 0.4rem 1rem;
     color: var(--secondaryTextColor);
 }
+.portfolio-info p {
+    text-align: justify;
+}
+
 
 /* Slider */
 .glide {
