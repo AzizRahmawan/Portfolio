@@ -390,6 +390,10 @@ nav ul li a {
     margin: 0.6rem 0 1.4rem;
 }
 
+.experience-right .education-info p {
+    margin: 0.6rem 0 0.8rem;
+}
+
 .education-years {
     margin-bottom: 3rem;
 }
