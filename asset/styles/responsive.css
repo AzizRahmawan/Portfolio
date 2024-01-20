@@ -111,12 +111,11 @@
 
     /* Experience Section */
     .experience-grid {
-        gap: 1rem;
+        gap: 2rem;
     }
 
     .experience-right .education {
         display: flex;
-        gap: 1rem;
         text-align: left;
         justify-content: flex-start;
     }
@@ -131,7 +130,7 @@
 
     /* Skills Section */
     .skills-grid {
-        gap: 0;
+        gap: 10px;
     }
 
     /* Footer Section */

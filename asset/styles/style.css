@@ -391,7 +391,7 @@ nav ul li a {
 }
 
 .experience-right .education-info p {
-    margin: 0.6rem 0 0.8rem;
+    margin: 0.4rem 0;
 }
 
 .education-years {
@@ -464,25 +464,43 @@ nav ul li a {
 }
 
 .html {
-    width: 90%;
+    width: 95%;
     background-color: var(--primaryIconColor);
-    border-radius: 8px 0 0 8px;
 }
 
 .css {
-    width: 80%;
+    width: 85%;
     background-color: var(--primaryIconColor);
 }
 
 .js {
-    width: 65%;
+    width: 85%;
     background-color: var(--primaryIconColor);
 }
 
 .php {
-    width: 60%;
+    width: 85%;
     background-color: var(--primaryIconColor);
-    border-radius: 0 8px 8px 0;
+}
+
+.laravel {
+    width: 90%;
+    background-color: var(--primaryIconColor);
+}
+
+.react {
+    width: 75%;
+    background-color: var(--primaryIconColor);
+}
+
+.bootstrap {
+    width: 85%;
+    background-color: var(--primaryIconColor);
+}
+
+.node-js {
+    width: 70%;
+    background-color: var(--primaryIconColor);
 }
 
 /* Contact Section */
