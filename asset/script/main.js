@@ -1,3 +1,24 @@
+// Portfolios Slider
+const portfolioSlider = () =>{
+    document.addEventListener('DOMContentLoaded', function () {
+        var glide = new Glide('.glide', {
+            type: 'carousel',
+            startAt: 1,
+            perView: 3, 
+            focusAt: 'center', 
+            gap: 20, 
+            autoplay: 2300, 
+            hoverpause: true,
+            breakpoints: {
+                800: {
+                    perView: 1,
+                },
+            },
+        });
+
+        glide.mount();
+    });
+}
 // Toggle & Responsive Navbar
 const navSlide = () => {
     const burger = document.querySelector(".burger");
@@ -21,6 +42,7 @@ const navSlide = () => {
     });
 }
 
+portfolioSlider();
 navSlide();
 
 // Clear Form
